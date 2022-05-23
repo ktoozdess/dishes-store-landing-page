@@ -1,0 +1,50 @@
+body{
+
+}
+header{
+    
+    margin: 8px 8px;
+    border-top: 16px solid #FFFFEF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .logo{
+        margin: 10px 0px;
+    }
+}
+.header-sec{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    .form-select {
+        border: 0px;
+        padding: 0px;
+        background-image: none;
+      }
+      ul{
+        margin: 10px 0px;
+      }
+      .text-end{
+          margin: 10px 0px;
+        a{
+            img{
+                width: 32px;
+            }
+        }
+        
+    }
+}
+
+.nav-link{
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 772px) {
+    
+}

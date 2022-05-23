@@ -1,0 +1,56 @@
+header {
+  margin: 8px 8px;
+  border-top: 16px solid #FFFFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .logo {
+  margin: 10px 0px;
+}
+
+.header-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.header-sec .form-select {
+  border: 0px;
+  padding: 0px;
+  background-image: none;
+}
+.header-sec ul {
+  margin: 10px 0px;
+}
+.header-sec .text-end {
+  margin: 10px 0px;
+}
+.header-sec .text-end a img {
+  width: 32px;
+}
+
+.nav-link {
+  padding: 0px;
+}
