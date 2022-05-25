@@ -1,8 +1,7 @@
 body{
-
+    font-family: 'Roboto', sans-serif;
 }
 header{
-    
     margin: 8px 8px;
     border-top: 16px solid #FFFFEF;
     display: flex;
@@ -20,7 +19,7 @@ header{
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+    margin-bottom: 44px;
     .form-select {
         border: 0px;
         padding: 0px;
@@ -42,6 +41,95 @@ header{
 
 .nav-link{
     padding: 0px;
+}
+
+
+.main-container{
+    .all-collections-wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .all-collections{
+        background-image: url('../inc/img/all-collections.svg');
+        width: 90%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        border: 16px solid #FFFFEF;
+        margin-bottom: 94px;
+        .all-collections-txt{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: flex-end; 
+            margin-bottom: 64px;
+            margin-right: 64px;  
+            color: #56593D;
+        }
+        a{
+            width: 154px;
+            height: 56px;
+            background-color: #56593D;
+            border-radius: 0px;
+            text-align: center;
+            padding: 16px 16px;
+            font-size: 16px;
+            color: #FFF;
+        }
+    }
+    .under-collections{
+        text-align: center;
+        p{
+            color: #56593D;
+            font-size: 57px;
+            line-height: 81px;
+        }
+        .under-collections-urls{
+            a{
+                color: #56593D;
+                font-size: 16px;
+                line-height: 25px;
+                margin: 0px 30px;
+            }
+            padding-bottom: 90px;
+
+        }
+    }
+    .maple-board-collection-wrapper{
+        margin-bottom: 23px;
+        background-color: #FFFFEF;
+        .board-collection-title{
+            text-align: center;
+            padding-top: 63px;
+            color: #56593D;
+        }
+        .board-collection-cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card-board-collection{
+            color: #56593D;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin: 32px;
+            img{
+                width: 90%;
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
 
 
