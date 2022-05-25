@@ -2,6 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 header {
   margin: 8px 8px;
   border-top: 16px solid #FFFFEF;
@@ -81,6 +86,7 @@ header .logo {
 }
 .main-container .all-collections {
   background-image: url("../inc/img/all-collections.svg");
+  background-size: cover;
   width: 90%;
   height: 700px;
   display: -webkit-box;
@@ -184,9 +190,50 @@ header .logo {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin: 32px;
+  margin: 60px 32px;
 }
 .main-container .maple-board-collection-wrapper .card-board-collection img {
-  width: 90%;
   margin-bottom: 15px;
+  width: 100%;
+}
+.main-container .believe-minimalism-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-container .believe-minimalism-wrapper .believe-minimalism {
+  color: #56593D;
+  background-image: url("../inc/img/believe-minimalism.svg");
+  background-size: cover;
+  height: 700px;
+  width: 90%;
+  margin-bottom: 40px;
+  border: 16px solid #FFFFEF;
+}
+.main-container .believe-minimalism-wrapper .believe-minimalism .believe-title {
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 62px;
+  margin-bottom: 11px;
+}
+.main-container .believe-minimalism-wrapper .believe-minimalism .believe {
+  font-size: 50px;
+  text-align: center;
+}
+.main-container .our-design-story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
