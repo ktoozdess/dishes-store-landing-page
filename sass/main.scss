@@ -60,7 +60,7 @@ header{
     .all-collections{
         background-image: url('../inc/img/all-collections.svg');
         background-size: cover;
-        width: 90%;
+        width: 100%;
         height: 700px;
         display: flex;
         flex-wrap: wrap;
@@ -145,7 +145,7 @@ header{
         background-image: url('../inc/img/believe-minimalism.svg');
         background-size: cover;
         height: 700px;
-        width: 90%;
+        width: 100%;
         margin-bottom: 40px;
         border: 16px solid #FFFFEF;
         .believe-title{
@@ -162,11 +162,87 @@ header{
     }
     }
     .our-design-story{
+        background-color: #FFFFEF;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 24px;
+        .design-story-left{
+            img{
+                width: 90%;
+                margin: 32px;
+            }
+        }
+        .design-story-right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #56593D;
+            hr{
+                width: 40px;
+            }
+        }
     }
+    .your-table-your-time{
+        background-color: #FFFFEF;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 40px;
+        .table-time-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: #56593D;
+            hr{
+                width: 40px;
+            }
+        }
+        .table-time-right{
+            img{
+                width: 90%;
+                margin: 32px;
+            }
+        }
+    }
+    .sign-up-newsletter{
+        background-color: #FFFFEF;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-bottom: 40px;
+        padding-top: 63px;
+        padding-bottom: 63px;
+        .form{
+            input{
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #56593D;
+                background-color: #FFFFEF;
+            }
+            a{
+            width: 144px;
+            height: 22px;
+            background-color: #56593D;
+            border-radius: 0px;
+            text-align: center;
+            padding: 1px 25px;
+            font-size: 16px;
+            color: #FFF;
+            text-transform: uppercase;
+            text-decoration: none;
+            }
+        }
+    }
+
+
 }
 
 

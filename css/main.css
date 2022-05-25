@@ -87,7 +87,7 @@ header .logo {
 .main-container .all-collections {
   background-image: url("../inc/img/all-collections.svg");
   background-size: cover;
-  width: 90%;
+  width: 100%;
   height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -211,7 +211,7 @@ header .logo {
   background-image: url("../inc/img/believe-minimalism.svg");
   background-size: cover;
   height: 700px;
-  width: 90%;
+  width: 100%;
   margin-bottom: 40px;
   border: 16px solid #FFFFEF;
 }
@@ -227,6 +227,7 @@ header .logo {
   text-align: center;
 }
 .main-container .our-design-story {
+  background-color: #FFFFEF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,4 +237,108 @@ header .logo {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+}
+.main-container .our-design-story .design-story-left img {
+  width: 90%;
+  margin: 32px;
+}
+.main-container .our-design-story .design-story-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #56593D;
+}
+.main-container .our-design-story .design-story-right hr {
+  width: 40px;
+}
+.main-container .your-table-your-time {
+  background-color: #FFFFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+.main-container .your-table-your-time .table-time-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #56593D;
+}
+.main-container .your-table-your-time .table-time-left hr {
+  width: 40px;
+}
+.main-container .your-table-your-time .table-time-right img {
+  width: 90%;
+  margin: 32px;
+}
+.main-container .sign-up-newsletter {
+  background-color: #FFFFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+.main-container .sign-up-newsletter .form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #56593D;
+  background-color: #FFFFEF;
+}
+.main-container .sign-up-newsletter .form a {
+  width: 144px;
+  height: 22px;
+  background-color: #56593D;
+  border-radius: 0px;
+  text-align: center;
+  padding: 1px 25px;
+  font-size: 16px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
 }
