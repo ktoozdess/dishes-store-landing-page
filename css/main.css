@@ -342,3 +342,36 @@ header .logo {
   text-transform: uppercase;
   text-decoration: none;
 }
+.main-container .kinnmoments {
+  background-color: #FFFFEF;
+  margin-bottom: 128px;
+}
+.main-container .kinnmoments p {
+  text-align: center;
+  font-size: 25px;
+  line-height: 32px;
+  padding-top: 69px;
+  margin-bottom: 39px;
+}
+.main-container .kinnmoments .kinnmoments-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 64px;
+}
+.main-container .kinnmoments .kinnmoments-img img {
+  margin: 8px;
+}
+
+footer {
+  background-color: #56593D;
+}

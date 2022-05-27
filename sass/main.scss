@@ -241,9 +241,32 @@ header{
             }
         }
     }
-
+    .kinnmoments{
+        background-color: #FFFFEF;
+        margin-bottom: 128px;
+        p{
+            text-align: center;
+            font-size: 25px;
+            line-height: 32px; 
+            padding-top: 69px;
+            margin-bottom: 39px;
+        }
+        .kinnmoments-img{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 64px;
+            img{
+                margin: 8px;
+            }
+        }
+    }
 
 }
+    footer{
+        background-color: #56593D;
+    }
 
 
 @media screen and (max-width: 772px) {
