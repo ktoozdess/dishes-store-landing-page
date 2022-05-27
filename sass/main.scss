@@ -1,3 +1,7 @@
+@mixin footer-section {
+    line-height: 25px;
+    margin-left: 32px;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -49,6 +53,8 @@ header{
 
 
 .main-container{
+
+}
     .all-collections-wrapper{
         display: flex;
         flex-wrap: nowrap;
@@ -263,9 +269,68 @@ header{
         }
     }
 
-}
+
     footer{
         background-color: #56593D;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        color: #FFFFEF;
+        font-size: 16px;
+        padding-bottom: 110px;
+        padding-top: 64px;
+        hr{
+            width: 40px;
+        }
+
+        .footer-section-1{
+        @include footer-section();
+        }
+
+        .footer-section-2{
+        @include footer-section();
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        a{
+            color: #FFFFEF;
+            text-decoration: none;
+            margin: 9px 4px;
+        }
+        select{
+            margin: 9px 0px;
+            color: #FFF;
+            option{
+                color: #56593D;
+            }
+        }
+        }
+
+        .footer-section-3{
+        @include footer-section();
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        a{
+            color: #FFFFEF;
+            text-decoration: none;
+            margin: 9px 4px;
+        }
+        }
+
+        .footer-section-4{
+        @include footer-section();
+        .icons{
+            img{
+
+            }
+        }
+        }
+        .form-select-footer{
+            background: none;
+            border: 0px;
+        }
     }
 
 

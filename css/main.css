@@ -65,7 +65,7 @@ header .logo {
   padding: 0px;
 }
 
-.main-container .all-collections-wrapper {
+.all-collections-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,8 @@ header .logo {
   -ms-flex-line-pack: center;
       align-content: center;
 }
-.main-container .all-collections {
+
+.all-collections {
   background-image: url("../inc/img/all-collections.svg");
   background-size: cover;
   width: 100%;
@@ -104,7 +105,7 @@ header .logo {
   border: 16px solid #FFFFEF;
   margin-bottom: 94px;
 }
-.main-container .all-collections .all-collections-txt {
+.all-collections .all-collections-txt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +122,7 @@ header .logo {
   margin-right: 64px;
   color: #56593D;
 }
-.main-container .all-collections a {
+.all-collections a {
   width: 154px;
   height: 56px;
   background-color: #56593D;
@@ -131,33 +132,35 @@ header .logo {
   font-size: 16px;
   color: #FFF;
 }
-.main-container .under-collections {
+
+.under-collections {
   text-align: center;
 }
-.main-container .under-collections p {
+.under-collections p {
   color: #56593D;
   font-size: 57px;
   line-height: 81px;
 }
-.main-container .under-collections .under-collections-urls {
+.under-collections .under-collections-urls {
   padding-bottom: 90px;
 }
-.main-container .under-collections .under-collections-urls a {
+.under-collections .under-collections-urls a {
   color: #56593D;
   font-size: 16px;
   line-height: 25px;
   margin: 0px 30px;
 }
-.main-container .maple-board-collection-wrapper {
+
+.maple-board-collection-wrapper {
   margin-bottom: 23px;
   background-color: #FFFFEF;
 }
-.main-container .maple-board-collection-wrapper .board-collection-title {
+.maple-board-collection-wrapper .board-collection-title {
   text-align: center;
   padding-top: 63px;
   color: #56593D;
 }
-.main-container .maple-board-collection-wrapper .board-collection-cards {
+.maple-board-collection-wrapper .board-collection-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,7 +174,7 @@ header .logo {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.main-container .maple-board-collection-wrapper .card-board-collection {
+.maple-board-collection-wrapper .card-board-collection {
   color: #56593D;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,11 +195,12 @@ header .logo {
       align-content: center;
   margin: 60px 32px;
 }
-.main-container .maple-board-collection-wrapper .card-board-collection img {
+.maple-board-collection-wrapper .card-board-collection img {
   margin-bottom: 15px;
   width: 100%;
 }
-.main-container .believe-minimalism-wrapper {
+
+.believe-minimalism-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +210,7 @@ header .logo {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.main-container .believe-minimalism-wrapper .believe-minimalism {
+.believe-minimalism-wrapper .believe-minimalism {
   color: #56593D;
   background-image: url("../inc/img/believe-minimalism.svg");
   background-size: cover;
@@ -215,18 +219,19 @@ header .logo {
   margin-bottom: 40px;
   border: 16px solid #FFFFEF;
 }
-.main-container .believe-minimalism-wrapper .believe-minimalism .believe-title {
+.believe-minimalism-wrapper .believe-minimalism .believe-title {
   font-size: 17px;
   line-height: 21px;
   text-align: center;
   margin-top: 62px;
   margin-bottom: 11px;
 }
-.main-container .believe-minimalism-wrapper .believe-minimalism .believe {
+.believe-minimalism-wrapper .believe-minimalism .believe {
   font-size: 50px;
   text-align: center;
 }
-.main-container .our-design-story {
+
+.our-design-story {
   background-color: #FFFFEF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,11 +250,11 @@ header .logo {
           align-items: center;
   margin-bottom: 24px;
 }
-.main-container .our-design-story .design-story-left img {
+.our-design-story .design-story-left img {
   width: 90%;
   margin: 32px;
 }
-.main-container .our-design-story .design-story-right {
+.our-design-story .design-story-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,10 +268,11 @@ header .logo {
   text-align: center;
   color: #56593D;
 }
-.main-container .our-design-story .design-story-right hr {
+.our-design-story .design-story-right hr {
   width: 40px;
 }
-.main-container .your-table-your-time {
+
+.your-table-your-time {
   background-color: #FFFFEF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,7 +291,7 @@ header .logo {
           align-items: center;
   margin-bottom: 40px;
 }
-.main-container .your-table-your-time .table-time-left {
+.your-table-your-time .table-time-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,14 +305,15 @@ header .logo {
   text-align: center;
   color: #56593D;
 }
-.main-container .your-table-your-time .table-time-left hr {
+.your-table-your-time .table-time-left hr {
   width: 40px;
 }
-.main-container .your-table-your-time .table-time-right img {
+.your-table-your-time .table-time-right img {
   width: 90%;
   margin: 32px;
 }
-.main-container .sign-up-newsletter {
+
+.sign-up-newsletter {
   background-color: #FFFFEF;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -324,13 +331,13 @@ header .logo {
   padding-top: 63px;
   padding-bottom: 63px;
 }
-.main-container .sign-up-newsletter .form input {
+.sign-up-newsletter .form input {
   outline: none;
   border: none;
   border-bottom: 1px solid #56593D;
   background-color: #FFFFEF;
 }
-.main-container .sign-up-newsletter .form a {
+.sign-up-newsletter .form a {
   width: 144px;
   height: 22px;
   background-color: #56593D;
@@ -342,18 +349,19 @@ header .logo {
   text-transform: uppercase;
   text-decoration: none;
 }
-.main-container .kinnmoments {
+
+.kinnmoments {
   background-color: #FFFFEF;
   margin-bottom: 128px;
 }
-.main-container .kinnmoments p {
+.kinnmoments p {
   text-align: center;
   font-size: 25px;
   line-height: 32px;
   padding-top: 69px;
   margin-bottom: 39px;
 }
-.main-container .kinnmoments .kinnmoments-img {
+.kinnmoments .kinnmoments-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,10 +376,83 @@ header .logo {
           justify-content: center;
   padding-bottom: 64px;
 }
-.main-container .kinnmoments .kinnmoments-img img {
+.kinnmoments .kinnmoments-img img {
   margin: 8px;
 }
 
 footer {
   background-color: #56593D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #FFFFEF;
+  font-size: 16px;
+  padding-bottom: 110px;
+  padding-top: 64px;
+}
+footer hr {
+  width: 40px;
+}
+footer .footer-section-1 {
+  line-height: 25px;
+  margin-left: 32px;
+}
+footer .footer-section-2 {
+  line-height: 25px;
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+footer .footer-section-2 a {
+  color: #FFFFEF;
+  text-decoration: none;
+  margin: 9px 4px;
+}
+footer .footer-section-2 select {
+  margin: 9px 0px;
+  color: #FFF;
+}
+footer .footer-section-2 select option {
+  color: #56593D;
+}
+footer .footer-section-3 {
+  line-height: 25px;
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+footer .footer-section-3 a {
+  color: #FFFFEF;
+  text-decoration: none;
+  margin: 9px 4px;
+}
+footer .footer-section-4 {
+  line-height: 25px;
+  margin-left: 32px;
+}
+footer .form-select-footer {
+  background: none;
+  border: 0px;
 }
