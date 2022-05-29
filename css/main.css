@@ -122,6 +122,12 @@ header .logo {
   margin-right: 64px;
   color: #56593D;
 }
+.all-collections .all-collections-txt .allcollections {
+  font-size: 18px;
+}
+.all-collections .all-collections-txt .elevate {
+  font-size: 45px;
+}
 .all-collections a {
   width: 154px;
   height: 56px;
@@ -452,7 +458,52 @@ footer .footer-section-4 {
   line-height: 25px;
   margin-left: 32px;
 }
+footer .footer-section-4 .icons a {
+  margin: 4px;
+}
 footer .form-select-footer {
   background: none;
   border: 0px;
+}
+
+@media screen and (max-width: 772px) {
+  .under-collections {
+    text-align: center;
+  }
+  .under-collections p {
+    font-size: 1.3rem;
+    line-height: 60px;
+  }
+
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .all-collections .all-collections-txt .elevate {
+    font-size: 25px;
+  }
+  .all-collections a {
+    width: 154px;
+    height: 56px;
+    background-color: #56593D;
+    border-radius: 0px;
+    text-align: center;
+    padding: 16px 16px;
+    font-size: 16px;
+    color: #FFF;
+  }
+
+  .believe-minimalism-wrapper .believe-minimalism .believe {
+    font-size: 35px;
+    text-align: center;
+  }
 }
